@@ -33,7 +33,7 @@ class MyApp extends StatelessWidget {
     final themeProvider = Provider.of<ThemeProvider>(context);
     final localizationProvider = Provider.of<LocalizationProvider>(context);
     return MaterialApp(
-      title: 'Today News',
+      title: 'Cloud News',
       debugShowCheckedModeBanner: false,
       theme: themeProvider.currentTheme,
       locale: localizationProvider.locale,
